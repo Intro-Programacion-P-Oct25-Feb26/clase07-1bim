@@ -20,8 +20,8 @@ public class Ejemplo02 {
         entrada.useLocale(Locale.US);
         int limite;
         int contador = 1;
-        System.out.println("Ingrese el Límite");
-        limite = entrada.nextInt(); 
+        System.out.println("Ingrese el Límite"); 
+        limite = entrada.nextInt(); // 6
         while (contador <= limite){
             
             if (contador%2!=0) {
@@ -34,3 +34,6 @@ public class Ejemplo02 {
         
     }
 }
+/*
+
+*/

@@ -28,8 +28,8 @@ public class Ejemplo03 {
         
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
-            valor_ingresado = entrada.nextInt();
-            suma = suma + valor_ingresado;
+            valor_ingresado = entrada.nextInt(); // 20
+            suma = suma + valor_ingresado; // 0 + 20 = 20
             System.out.printf("Valor ingresado %d\n", 
                     valor_ingresado);
             contador = contador + 1;
